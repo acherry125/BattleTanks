@@ -65,5 +65,5 @@ DerivedDataCache/*
 # Starter Content
 */StarterContent/*
 
-BuildingEscape.VC.db
-BuildingEscape.VC.VC.opendb
+*.VC.db
+Battletanks.VC.VC.opendb
