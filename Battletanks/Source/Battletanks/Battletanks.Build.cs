@@ -4,7 +4,7 @@ using UnrealBuildTool;
 
 public class Battletanks : ModuleRules
 {
-	public Battletanks(TargetInfo Target)
+	public Battletanks(ReadOnlyTargetRules Target) : base (Target)
 	{
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
